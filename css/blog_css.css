@@ -844,7 +844,7 @@
 
 /* ------------ MEDIA  ------------  */
 		/* ------------ SMARTPHONES ------------  */
-		@media only screen and (max-width: 300px) {
+		@media only screen and (max-width: 599px) {
 			.nav_bar{
 				font-size: 10px;
 				height: 60px;
@@ -1117,7 +1117,7 @@
 		}
 
 		/* ------------  TABLETS PORTRAIT ------------  */
-		@media only screen and (min-width: 301px) and (max-width: 1023px){
+		@media only screen and (min-width: 600px) and (max-width: 1023px){
 			.explenation{
 				min-height:240px;
 			}
