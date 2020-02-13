@@ -844,7 +844,7 @@
 
 /* ------------ MEDIA  ------------  */
 		/* ------------ SMARTPHONES ------------  */
-		@media only screen (min-device-width:480) and (max-width: 800px) {
+		@media only screen and (min-device-width:400){
 			.nav_bar{
 				font-size: 10px;
 				height: 60px;
