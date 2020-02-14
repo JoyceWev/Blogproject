@@ -745,6 +745,32 @@
 			grid-column: 1/3;
   			grid-row: 1 / 2;
 		}
+		.sharing_article{
+			display: flex;
+			margin:32px auto 0px auto;
+			flex-direction: column;
+			text-align: center;
+		}
+		.article_socials{
+			display: flex;
+			flex-direction: row;
+		}
+		.article_socials a{
+			display: flex;
+			flex-direction: row;
+			padding:16px;
+			margin:0px;
+			text-decoration: none;
+		}
+		.article_socials p{
+			margin-block-start: 0em;
+		    margin-block-end: 0em;
+		    padding-left: 8px;
+		    text-decoration: underline;
+		}
+		.article_socials .fab{
+			line-height: 1.4;
+		}
 
 /* ------------ BLOGPOST 3  ------------  */	
 
