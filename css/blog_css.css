@@ -758,7 +758,7 @@
 		.article_socials a{
 			display: flex;
 			flex-direction: row;
-			padding:16px;
+			padding:8px 4px 8px 4px;
 			margin:0px;
 			text-decoration: none;
 		}
