@@ -1,0 +1,249 @@
+/* ------------ HOMEPAGE  ------------  */
+
+	/* ------------ Header ------------  */
+
+		.front_page_hero{
+			width:100vw;
+			height:100vh;
+			position:relative;
+			background-image: url("../images/hero_background.jpg");
+			background-size: cover;
+			background-position: center;
+			display:flex;
+		}
+
+		.hero_text{
+			margin-left: 12%;
+			margin-top:auto;
+			margin-bottom:auto;
+			padding-bottom:80px;
+		}
+
+		.hero_text h2{
+			padding-left:160px;
+		}
+
+		.hero_text h2,h1{
+			margin:0.8em 0;
+		}
+
+		/* ------------ Form ------------  */
+
+			form{
+				position: relative;
+				float:right;
+				right: 0px;
+				position: relative;
+				margin:auto 12% auto auto;
+				height:360px;
+				width: 304px;
+				border:solid 1px #000;
+				background-color: rgba(0, 0, 0, 0.65);
+				padding:24px;
+			}
+
+			input[type=text],
+			input[type=email], 
+			select {
+				width: 100%;
+		  		padding: 8px 16px;
+			  	margin: 8px 0 16px 0;
+			 	box-sizing: border-box;
+			  	border: none;
+			  	border-bottom: 1px solid #000;
+			  	background-color: transparent;
+			  	color:#FFF;
+			  	position:relative;
+			  	font-family: Helvetica Neue, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			    font-weight: 100;
+			    font-size: 12px;
+			    line-height: 19px;
+			    letter-spacing: 2.4px;
+			}
+
+			form .button{
+				bottom:24px;
+				right: 24px;
+			}
+
+			form label{
+				font-weight: 400;
+				letter-spacing: 1px;
+			}
+
+	/* ------------ Explenation section ------------  */
+
+		.explenation{
+			position: relative;
+			height:auto;
+			background-color: #1D1D1D; 
+			display:flex;
+		}
+
+		.explenation .explenation_div{
+			margin: auto;
+			width:400px;
+			text-align: center;
+		}
+
+		span{
+			font-style: italic;
+		}
+
+		.line{
+			border-top: solid 1px;
+			border-color: #FFF;
+			width:64px;
+			margin:auto;
+			height:0px;
+		}
+
+	/* ------------ Highlight post ------------  */
+
+		.post_image{
+			float:left;
+			width:50vw;
+			height:100vh;
+			position:relative;
+			left:0px;
+			background-image: url("../images/interior_highiligh.jpg");
+			background-size: cover;
+			background-position: center;
+		}
+
+		.post_text{
+			display:flex;
+			float:right;
+			width:50vw;
+			height:100vh;
+			position:relative;
+			right:0px;
+			background-color: #F7EFE2;
+
+		}
+
+		.textbox{
+			width:380px;
+			height: auto;
+			margin:auto;
+			position: relative;
+		}
+
+	/* ------------ Blog Posts ------------  */
+
+		.blog_posts{
+			background-color: #F5E3C6;
+			display: flex;
+			flex-direction: column;
+			position: relative;
+		}
+
+		.blog_header{
+			display: flex;
+			height: auto;
+			margin: 0px auto;
+			position: absolute;
+			width:100%;
+		}
+
+		.blog_header h3{
+			margin: 32px auto;
+			line-height: normal;
+			height:auto;
+		}
+
+		/* ------------ Articles ------------  */
+
+			.blog_articles{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+			}
+
+			.card{
+				min-width:200px;
+				width: 320px;
+				height: 480px;
+				background-color: #FFF;
+				margin:20px;
+				position:relative;
+			}
+
+			.style1 .blog_image{
+				position:absolute;
+				margin:20px;
+				height:auto;
+				width:auto;
+				top:0px;
+				left:0px;
+				right:0px;
+				bottom:72px;
+				background-image: url("../images/card1.jpg");
+				background-size: cover;
+				background-position: center;
+			}
+
+			.style1 .card_header{
+				position: absolute;
+				width:100%;
+				text-align: center;
+				bottom:24px;
+				margin:auto;
+			}
+
+			.style2{
+				background-image: url("../images/card2.jpg");
+				background-size: cover;
+				background-position: center;
+				position: relative;
+			}
+
+			.border{
+				position: absolute;
+				top:24px;
+				left:24px;
+				right:24px;
+				bottom:24px;
+				border:solid 20px;
+				border-color: #FFF;
+			}
+
+			.style2 .card_header{
+				position: absolute;
+				width:100%;
+				text-align: center;
+				top:17px;
+				margin:auto;
+				z-index: 20;
+			}
+
+			.style3 .blog_image{
+				position:absolute;
+				margin:20px;
+				height:auto;
+				width:auto;
+				top:40px;
+				left:0px;
+				right:0px;
+				bottom:40px;
+				background-image: url("../images/card3.jpg");
+				background-size: cover;
+				background-position: center;
+			}
+
+			.style3 .card_header{
+				position: absolute;
+				width:100%;
+				text-align: center;
+				top:14px;
+				margin:auto;
+				z-index: 20;
+			}
+
+			.style3 .highlight_text{
+				position: absolute;
+				left:20px;
+				bottom:20px;
+				color: #1D1D1D;
+			}
