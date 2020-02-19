@@ -70,7 +70,6 @@
 			font-weight: bold;
 		    font-size: 24px;
 		    letter-spacing: 1px;
-		    font-style: italic;
 		}
 
 		.quote{
@@ -80,6 +79,18 @@
 
 		.white{
 			color: #FFF;
+		}
+
+		.italic{
+			font-style: italic;
+		}
+
+		.bold{
+			font-weight: bold;
+		}
+
+		.underline{
+			text-decoration: underline;
 		}
 
 		section{
@@ -107,7 +118,7 @@
 		button, 
 		input[type=submit]{
 			position:absolute;
-			right:0px;
+			right:24px;
 			font-family: Helvetica Neue, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 		    font-weight: 100;
 		    font-size: 12px;

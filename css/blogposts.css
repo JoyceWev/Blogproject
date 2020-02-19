@@ -342,7 +342,7 @@
 			height:100%;
 			background-color: rgba(0,0,0,0.34)
 		}
-		.general_hero h2{
+		.general_hero.post3 h2{
 			position: relative;
 			z-index: 10;
 			margin:0px;

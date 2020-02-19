@@ -86,10 +86,6 @@
 			text-align: center;
 		}
 
-		span{
-			font-style: italic;
-		}
-
 		.line{
 			border-top: solid 1px;
 			border-color: #FFF;
@@ -101,6 +97,7 @@
 	/* ------------ Highlight post ------------  */
 
 		.post_image{
+			display: flex;
 			float:left;
 			width:50vw;
 			height:100vh;
@@ -109,6 +106,11 @@
 			background-image: url("../images/interior_highiligh.jpg");
 			background-size: cover;
 			background-position: center;
+			align-items: flex-end;
+		}
+
+		.post_image figcaption{
+			padding:16px;
 		}
 
 		.post_text{
